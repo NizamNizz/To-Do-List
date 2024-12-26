@@ -1,0 +1,85 @@
+.app {
+  text-align: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Light Cyan */
+}
+
+.header {
+  font-size: 2rem;
+  color: #4682b4; /* Steel Blue */
+  margin-bottom: 20px;
+}
+
+.task-input {
+  margin-bottom: 20px;
+  background: #e6f7ff; /* Light Blue */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.task-input input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #b0c4de; /* Light Steel Blue */
+  border-radius: 4px;
+}
+
+.task-input button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #4682b4; /* Steel Blue */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-input button:hover {
+  background-color: #5a9bd3; /* Lighter Steel Blue */
+}
+
+.todo-list {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #ffffff; /* White */
+  border: 1px solid #dcdcdc; /* Gainsboro */
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #dcdcdc; /* Gainsboro */
+  background-color: #f8f8ff; /* Ghost White */
+}
+
+.todo-item:hover {
+  background-color: #f0f8ff; /* Light Cyan */
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: #b0c4de; /* Light Steel Blue */
+}
+
+.todo-item button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #ff7f7f; /* Light Salmon */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-item button:hover {
+  background-color: #ffb6c1; /* Light Pink */
+}
